@@ -22,7 +22,7 @@ function Footer(){
             {/* bottom container */}
             <Container className="footer-bottom-container" >
                 <Row className="footer-bottom-content">
-                    <Col>
+                    <Col xs={6} sm={3}>
                         <ul>
                             <li style={{marginBottom: "5%"}}><b>Hobbycue</b></li>
                             <li>About Us</li>
@@ -32,7 +32,7 @@ function Footer(){
                             <li>Contact Us</li>
                         </ul>
                     </Col>
-                    <Col>
+                    <Col xs={6} sm={3}>
                         <ul>
                             <li style={{marginBottom: "5%"}}><b>How Do I</b></li>
                             <li>Sign Up</li>
@@ -43,7 +43,7 @@ function Footer(){
                             <li>Other Queries</li>
                         </ul>
                     </Col>
-                    <Col>
+                    <Col xs={6} sm={3}>
                         <ul>
                             <li style={{marginBottom: "5%"}}><b>Quick Links</b></li>
                             <li>Listings</li>
@@ -52,7 +52,7 @@ function Footer(){
                             <li>Community</li>
                         </ul>
                     </Col>
-                    <Col>
+                    <Col xs={6} sm={3}>
                         <h6 style={{fontWeight: 800}}>Social Media</h6>
                         <div className='social-media'>
                             <button className='social-media-btn'>
@@ -95,7 +95,7 @@ function Footer(){
                         {/* search bar */}
                         <div className='footer-search-bar'>
                             <h6 style={{fontWeight: 800}}>Invite Friends</h6>
-                            <Form className="d-flex searchbar">
+                            <Form className="d-flex footer-searchbar">
                                 <input
                                     type="text"
                                     placeholder="Email id"
