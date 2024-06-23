@@ -27,7 +27,7 @@ function SignIn() {
                 </svg>
                 forgot Password?
             </div>
-            <button className="continueBtn">Continue</button>
+            <button style={{backgroundColor: "#8064A2", color: "white"}} className="continueBtn">Continue</button>
         </>
     );
 }

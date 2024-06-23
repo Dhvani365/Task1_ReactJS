@@ -20,7 +20,7 @@ function JoinIn(){
             <br />
             <p style={{marginTop: "-15px", marginLeft: "70%", fontSize: "12px"}}>Password Strength</p>
             <p style={{fontSize: "12px",fontWeight: "400"}}>By Continuing, you agree to our <i style={{fontWeight: "500"}}>Terms of Service</i> and <i style={{fontWeight: "500"}}>Privacy Policy</i></p>
-            <button className="continueBtn">Agree and Continue</button>
+            <button style={{backgroundColor: "#8064A2", color: "white"}} className="continueBtn">Agree and Continue</button>
         </>
     )
 }
