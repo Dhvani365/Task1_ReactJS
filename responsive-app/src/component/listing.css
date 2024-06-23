@@ -58,6 +58,28 @@
   .listing-card:hover svg {
     fill: white;
   }
+
+  /* Responsive Adjustments */
+@media (max-width: 768px) {
+  .listing-card-body {
+      padding-left: 15px;
+      padding-top: 20px;
+      height: auto;
+      margin-bottom: 2%;
+  }
+
+  .listing-card svg {
+      width: 10%;
+      height: 10%;
+      margin-right: 3%;
+  }
+
+  .listing-card-btn {
+      font-size: 10px;
+      height: 35px;
+      width: 30%;
+  }
+}
   
   
   

@@ -4,8 +4,8 @@
   .main-container {
     display:flex;
     justify-content: space-between;
-    width: 1500px;
-    max-width: 1500px;
+    width: 100%;
+    max-width: 100%;
     margin-top: 0;
     background-color: #F7F5F9;
     padding-top: 2%;
@@ -93,12 +93,27 @@
     background-color: #1a1a1a; /* Darken button color on hover */
   }
   
-  /* Responsiveness (optional) */
+  /* Responsiveness */
   @media (max-width: 768px) {
-    /* Adjust styles for smaller screens as needed */
-    .col-div-1,
+    .main-container {
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .col-div-1 {
+      width: 60%;
+      text-align: left;
+      padding: 3%;
+      margin-left: 5%;
+    }
     .col-div-2 {
-      width: 100%; /* Make columns full width on small screens */
+      width: 40%;
+      margin-left: 5%;
+      margin-right: 8%;
+    }
+    .col-div-1 img{
+      width: 100%;
     }
   }
   

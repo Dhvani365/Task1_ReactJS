@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import NavBar from '../src/component/navbar';
 import HeroSection from '../src/component/hero';

@@ -131,3 +131,86 @@
     font-size: 14px;
     color: #0096C8;
   }
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .test-card {
+      width: 90%;
+      margin: 5% auto;
+      text-align: center;
+      align-items: center;
+  }
+
+  .custom-audio-player {
+      flex-direction: row;
+      height: auto;
+      margin-left: 0;
+      padding: 10px;
+  }
+
+  .custom-audio-player .play-pause-button {
+      margin-bottom: 10px;
+  }
+
+  .custom-audio-player .progress-bar {
+      margin: 10px 0;
+  }
+
+  .custom-audio-player .progress-time {
+      margin-left: 0;
+  }
+
+  .profile-card {
+      flex-direction: column;
+      align-items: center;
+      max-width: 100%;
+      margin: 20px auto;
+  }
+
+  .profile-card img {
+      width: 50px;
+      height: 50px;
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+
+  .profile-info h2, .profile-info p {
+      text-align: center;
+  }
+
+  .bottom-content {
+      flex-direction: column;
+      padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-text {
+      font-size: 14px;
+      line-height: 24px;
+      align-items: center;
+  }
+
+  .custom-audio-player .play-pause-button {
+      width: 30px;
+      height: 30px;
+  }
+
+  .custom-audio-player .progress-time {
+      font-size: 10px;
+  }
+
+  .custom-audio-player .progress-bar {
+      margin: 10px 0;
+  }
+  .profile-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 30px;
+    gap: 10px;
+   }
+  .test-img{
+    min-width: 40px;
+  }
+}

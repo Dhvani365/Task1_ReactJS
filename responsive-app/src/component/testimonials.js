@@ -16,7 +16,7 @@ function Testimonials(){
                         <Card className="test-card" style={{background: "#F7F5F9"}}>
                             <Card.Body className="test-cardBody">
                             {/* Title */}
-                            <Card.Title><img src={testImg} width='5%' height='50px' style={{marginRight: "10px"}}/>Testimonials</Card.Title>
+                            <Card.Title><img className='test-img' src={testImg} width='5%' height='50px' style={{marginRight: "10px"}}/>Testimonials</Card.Title>
                             {/* Content */}
                             <Card.Text className="card-text">In a fast growing and ever changing city like Bangalore, it sometimes becomes very difficult to find or connect with like minded people. Websites like hobbycue.com is a great service which helps me get in touch with, communicate, connect, and exchange ideas with other dancers. It also provides the extra benefit of finding products and services that I can avail, which I can be assured is going to be of great quality as it comes recommended by people of the hobbycue community. To have discussions, to get visibility, and to be able to safely explore various hobbies and activities in my city, all under one roof, is an excellent idea and I highly recommend it.</Card.Text>
                             

@@ -32,3 +32,27 @@
     padding: 2%;
     font-family: 'Poppins';
 }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .cont-card {
+        display: flex;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        justify-content: center;
+    }
+    .cont-cardbtn {
+        width: 100%;
+    }
+
+    .cont-cardBody {
+        text-align: center; /* Center the text on smaller screens */
+    }
+    .iconBtn {
+        min-width: 40px;
+        height: 40px;
+    }
+
+}

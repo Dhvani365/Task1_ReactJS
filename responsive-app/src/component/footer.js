@@ -1,6 +1,5 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -15,14 +14,22 @@ function Footer(){
                 <Row className="footer-top-content">
                     <h2 className='content'>Your <span style={{color: "#0096C8"}}>Hobby</span>, Your <span style={{color: "#8064A2"}}>Community</span></h2>
                     <button className="footer-top-btn" style={{width:"150px", height:"50px"}}>Get Started</button>         
+                    <a href="#">
+                        <button style={{borderRadius: "50%", marginLeft: "80%", height: "100%", width: "3%", border:"none", background: "#F7FDFF"}} className="go-top-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16" style={{color: "black", height: "100%", width: "100%"}}>
+                                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+                            </svg>
+                            </button>
+                    </a>
                     <img className="footer-top-img" src={FooterImg}/>
+                    
                 </Row>
             </Container>
 
             {/* bottom container */}
-            <Container className="footer-bottom-container" >
+            <Container fluid className="footer-bottom-container" >
                 <Row className="footer-bottom-content">
-                    <Col xs={6} sm={3}>
+                    <Col>
                         <ul>
                             <li style={{marginBottom: "5%"}}><b>Hobbycue</b></li>
                             <li>About Us</li>
@@ -32,7 +39,7 @@ function Footer(){
                             <li>Contact Us</li>
                         </ul>
                     </Col>
-                    <Col xs={6} sm={3}>
+                    <Col>
                         <ul>
                             <li style={{marginBottom: "5%"}}><b>How Do I</b></li>
                             <li>Sign Up</li>
@@ -43,7 +50,7 @@ function Footer(){
                             <li>Other Queries</li>
                         </ul>
                     </Col>
-                    <Col xs={6} sm={3}>
+                    <Col>
                         <ul>
                             <li style={{marginBottom: "5%"}}><b>Quick Links</b></li>
                             <li>Listings</li>
@@ -52,8 +59,8 @@ function Footer(){
                             <li>Community</li>
                         </ul>
                     </Col>
-                    <Col xs={6} sm={3}>
-                        <h6 style={{fontWeight: 800}}>Social Media</h6>
+                    <Col>
+                        <h6 style={{fontWeight: 800}} className='social-title'>Social Media</h6>
                         <div className='social-media'>
                             <button className='social-media-btn'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16" style={{color:"#6D747A"}}>
@@ -94,7 +101,7 @@ function Footer(){
 
                         {/* search bar */}
                         <div className='footer-search-bar'>
-                            <h6 style={{fontWeight: 800}}>Invite Friends</h6>
+                            <h6 style={{fontWeight: 800}} className='invite-text'>Invite Friends</h6>
                             <Form className="d-flex footer-searchbar">
                                 <input
                                     type="text"
