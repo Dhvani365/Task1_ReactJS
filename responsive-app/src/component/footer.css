@@ -36,9 +36,13 @@
 }
 
 /* styling links */
+.footer-bottom-container{
+    margin-top: 40px;
+}
 .footer-bottom-content{
     font-family: 'Poppins';
     margin-bottom: 5%;
+    margin-top: 40px;
 }
 ul {
     list-style-type: none;
