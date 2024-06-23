@@ -1,0 +1,113 @@
+/* applying css to the top container */
+.footer-top-container{
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: #F7FDFF;
+}
+.footer-top-content{
+    padding-left: 10%;
+    padding-top: 8%;
+}
+.content{
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 54px;
+    text-align: left;
+}
+.footer-top-btn{
+    border-radius: 8px;
+    border: 1px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    background-color: #8064A2;
+    color: white;
+    font-weight: 800;
+    line-height: 30px;
+    margin-top: 3%;
+}
+.footer-top-img{
+    height: 50%;
+    width: 90%;
+    margin-top: 10%;
+    margin-right: 10%;
+    padding-left: 0%;
+    margin-bottom: 5%;
+}
+
+/* styling links */
+.footer-bottom-content{
+    font-family: 'Poppins';
+    margin-bottom: 5%;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    cursor: pointer;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    gap: 5%;
+    margin-left: -20px;
+}
+.social-media-btn{
+    background-color: #EBEDF0;
+    border-radius: 50%;
+    border: none;
+}
+
+/* styling footer search bar */
+.footer-search-bar{
+    margin-top: 10%;
+}
+.footer-search-textbox{
+    width: 100%;
+    height: 40px;
+    border: #8064A2 solid 2px;
+    border-radius: 10px;
+    margin-left: -30px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    padding-left: 10px;
+}
+.footer-search-button{
+    width: 25%;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    margin-left: -10px;
+    background-color: #8064A2;
+    border: none;
+}
+/* applying css to copyright container */
+.footer-bottom{
+    display: flex;
+    background-color: #F7F5F9;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+.copyright-text{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    margin-top: 2%;
+}

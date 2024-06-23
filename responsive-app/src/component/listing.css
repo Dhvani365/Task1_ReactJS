@@ -1,0 +1,63 @@
+.container{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.listing-card-btn{
+    width: 30%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    border: solid 2px #8064A2;
+    background-color: white;
+    color: #8064A2;
+    font-weight: 600;
+}
+.listing-card-btn:hover{
+    background-color: #8064A2;
+    color: white;
+} 
+.listing-card{
+    width: 100%;
+    padding: 4%;
+    border: 1px solid gainsboro;
+}
+.listing-card svg {
+    transition: fill 0.3s; 
+    fill: var(--hover-color); 
+}
+.listing-card-body{
+    padding-left: 25px;
+    padding-top: 40px;
+    height: 230px;
+    margin-bottom: 5%;
+}
+/* style for hover the cards */
+
+.listing-card {
+    transition: background-color 0.3s, color 0.3s;
+  }
+    
+  .listing-card:hover {
+    background-color: var(--hover-color);
+    color: white;
+  }
+  
+  .listing-card:hover .listing-card-btn {
+    color: white;
+    background-color: var(--hover-color);
+    border-color:  var(--hover-color);
+  }
+  
+  .listing-card-body {
+    transition: color 0.3s;
+  }
+  
+  .listing-card:hover svg {
+    fill: white;
+  }
+  
+  
+  

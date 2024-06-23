@@ -1,0 +1,133 @@
+.test-container{
+    width: 100%;
+    justify-items: center;
+    padding: 0;
+    margin-top: 0%;
+}
+
+/* styling card */
+.test-card{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2%;
+}
+.card-text{
+  margin-top: 3%;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.bottom-content{
+    display: flex;
+    align-items: center;
+    background-color: #F7F5F9;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+/* styling audio player */
+.custom-audio-player {
+    background-color: #d3c1e5; 
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: -100px;
+  }
+  .custom-audio-player button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .custom-audio-player button:focus {
+    outline: none;
+  }
+  .custom-audio-player .play-pause-button {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8064A2; 
+  }
+  .custom-audio-player .progress-bar {
+    flex-grow: 1;
+    margin: 0 10px;
+    position: relative;
+  }
+  .custom-audio-player .progress {
+    width: 100%;
+    height: 5px;
+    background: #c3b0dd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .custom-audio-player .progress-bar .progress-fill {
+    width: 0;
+    height: 100%;
+    background: #8064A2;
+    border-radius: 5px;
+  }
+  .custom-audio-player .progress-time {
+    color: #8064A2;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .custom-audio-player .cover-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    overflow: hidden;
+  }
+  .custom-audio-player .cover-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* styling profile of testimonial */
+  .profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    max-width: 30%;
+    margin-left: 10%;
+    margin-right: 0%;
+    padding-right: 0%;
+  }
+  .profile-card img {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-info h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #8064A2;
+    font-weight: 600;
+  }
+  .profile-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #0096C8;
+  }

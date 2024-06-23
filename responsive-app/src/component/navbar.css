@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.logo {
+    width: 293.26px;
+    height: 60px; 
+    max-height: 60px;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+/* Search Bar */
+.searchbar{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px 0px 0px 0px;
+}
+.search-button {
+    height: 40px;
+    width: 30%;
+    margin-left: -45px;
+}
+
+.exploreDD{
+    margin-left: 0px;
+    margin-top: 15px;
+    color:black;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.hobbiesDD{
+    margin-top: 15px;
+    color:black;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.search-textbox{
+    background-color: #F8F9FA; 
+    font-size: 12px;
+    color: #939CA3;
+    outline: none;
+    border: solid 1px #EBEDF0;
+    border-radius: 15px;
+    width: 300px;
+    padding: 15px;
+}
+.signinbtn{
+    width: 112px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border: 1px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    border: solid 2px #8064A2;
+    background-color: white;
+    color: #8064A2;
+    font-weight: 600;
+}
+.signinbtn:hover{
+    background-color: #8064A2;
+    color: white;
+} 
+/* Responsive adjustments */
+ @media (max-width: 768px) {
+    .logo {
+        width: 100px;
+        height: auto; 
+        margin-left: 5px;
+    }
+    .search-textbox {
+        display: none;
+    }
+    .search-button{
+        background-color: white;
+        color: #8064A2;
+        height: 0px;
+        width: 30px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .search-btn{
+        height: 100%;
+        width: 100%;
+    }
+    .signinbtn {
+        display: none;
+    }
+    .mobile-icons {
+        display: flex;
+        align-items: center;
+    }
+    .mobile-icons .search-button {
+        margin: 0 10px;
+    }
+} 
+

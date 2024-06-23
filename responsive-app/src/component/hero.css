@@ -1,0 +1,104 @@
+/* Hero section styles */
+ 
+  /* Container */
+  .main-container {
+    display:flex;
+    justify-content: space-between;
+    width: 1500px;
+    max-width: 1500px;
+    margin-top: 0;
+    background-color: #F7F5F9;
+    padding-top: 2%;
+    font-family: "poppins";
+  }
+  
+  /* Left column */
+  .col-div-1 {
+    width: 60%; 
+    color: black; 
+    padding-top: 3%;
+    margin-left: 5%;
+  }
+  .col-div-1 p{
+    margin-top: 5%;
+    font-weight: 300;
+  }
+
+  
+  /* Right column */
+  .col-div-2 {
+    width: 40%; 
+    background-color: #F7F5F9;
+    padding: 40px;
+    margin-left: 5%;
+    margin-right: 8%;
+  }
+  
+  .link {
+    color: #939CA3; 
+    text-decoration: none; 
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .link.active{
+    color:#8064A2;
+  }
+  .link:hover {
+    color: #333; 
+  }
+  
+  .btn {
+    width: 100%;
+    background-color: transparent;
+    font-weight: 600;
+    border: solid 10px #8064A2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer; /* Indicate clickable button */
+  }
+  
+  .btn:hover {
+    background-color: #664b92; /* Darken button color on hover */
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+    font-size: 12px;
+    padding-left: 2%;
+  }
+  
+  .rememberCkb {
+    margin-right: 10px;
+  }
+  
+  .lock-icon {
+    margin-right: 5px;
+    fill: #8064A2; /* Assuming a blue color for the lock icon */
+  }
+  
+  .continueBtn {
+    background-color: #333; /* Assuming a dark color for the continue button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Indicate clickable button */
+  }
+  
+  .continueBtn:hover {
+    background-color: #1a1a1a; /* Darken button color on hover */
+  }
+  
+  /* Responsiveness (optional) */
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens as needed */
+    .col-div-1,
+    .col-div-2 {
+      width: 100%; /* Make columns full width on small screens */
+    }
+  }
+  
